@@ -9,7 +9,7 @@ Develop new features by adding a test to [`handle_test.go`](handle_test.go) for
 each feature, and confirm it works with `go test`.
 
 Update the running analog of the function using the `func` CLI or client
-library, and it can be invoked from your browser or from the command line2:
+library, and it can be invoked from your browser or from the command line3:
 
 ```console 
 curl http://myfunction.example.com/
