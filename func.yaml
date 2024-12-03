@@ -10,11 +10,7 @@ invocation:
 build:
   buildpacks: []
   builder: s2i
-  buildEnvs:
-  - name: buildEnv
-    value: buildEnvVal
-  - name: buildEnv1
-    value: buildEnvVal1
+  buildEnvs: []
 run:
   volumes: []
   envs:
